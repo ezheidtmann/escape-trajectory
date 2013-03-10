@@ -1,0 +1,17 @@
+#!/bin/sh
+
+# Very simple file to echo "AR" and run ar
+
+cmdline="$*"
+
+while [ x"$1" != x ]
+do
+	case "$1" in
+		[^-]*) fil="$1"; break; ;;	# source or object files
+	esac
+	shift
+done
+
+echo "  AR  " $fil
+
+exec ar $cmdline

@@ -1,0 +1,32 @@
+== How to build this program ==
+
+First, get a copy of the complete tree. If you have SVN, do this:
+
+  svn checkout http://svn.b.evanheidtmann.info/escape/escape-trajectory
+
+Next, the CVODE includes and libraries need to be generated. First, change
+to the sundials directory:
+
+  cd sundials
+
+Then run the configure script with the correct PREFIX argument. If the
+escape-trajectory folder is in /home/joe/somewhere, then the command is:
+
+  ./configure --prefix=/home/joe/somewhere/escape-trajectory
+
+If that runs successfully, just make and install CVODE:
+
+  make
+  make install
+
+Now you're ready to build the trajectory generator. Go back to the root of
+the source tree:
+
+  cd ..
+
+And build:
+
+  make
+
+Enjoy!
+
