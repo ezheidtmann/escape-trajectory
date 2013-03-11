@@ -1,0 +1,9 @@
+*.o*
+*.lo
+*.la
+escape
+rthree
+curvedtwobody
+twobody
+lib/
+include/
