@@ -1,6 +1,9 @@
 #ifndef ABSTRACTPROBLEM_H
 #define ABSTRACTPROBLEM_H
 
+#include <unistd.h>
+#include <stdlib.h>
+
 #include <cvode.h>
 #include <nvector_serial.h>
 #include <sundials_dense.h>
