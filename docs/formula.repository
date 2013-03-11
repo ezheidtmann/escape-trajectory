@@ -1,0 +1,65 @@
+\form#0:$t$
+\form#1:\[ t_n = r t_{n-1} \]
+\form#2:$r$
+\form#3:$t_0$
+\form#4:$r=2$
+\form#5:$t_0=1$
+\form#6:$n$
+\form#7:\[ r = 2^{1 / n} \]
+\form#8:$t = 0$
+\form#9:$t = 2\pi$
+\form#10:$r=2^{1/n}$
+\form#11:$f(t,z)$
+\form#12:$z^\prime = f(t,z)$
+\form#13:$z^\prime$
+\form#14:$z$
+\form#15:$\rho_0$
+\form#16:$\Delta v$
+\form#17:$\phi$
+\form#18:$\theta$
+\form#19:$P_x$
+\form#20:$P_y$
+\form#21:\begin{eqnarray*} V_x &=& \frac{V_x}{m} + V_s \cos \Theta\\ v &=& \frac{V_x}{m} + V_s \cos \left( \arccos \left( \frac{P_x}{\sqrt{P_x^2 + P_y^2}} \right) \right)\\ v &=& \frac{V_x}{m} + V_s \left( \frac{P_x}{ \sqrt{P_x^2 + P_y^2} } \right)\\ V_y &=& \frac{V_y}{m} + V_s \left( \frac{P_y}{ \sqrt{P_x^2 + P_y^2} } \right) \end{eqnarray*}
+\form#22:$m$
+\form#23:$V_x$
+\form#24:$V_y$
+\form#25:\begin{eqnarray*} \ddot{x} & = & -\frac{GM_E}{d_E^3}\left(x-L_E\cos\omega t\right)- \frac{GM_S}{d_S^3}\left(x+L_S\cos\omega t\right)\\ \ddot{y} & = & -\frac{GM_E}{d_E^3}\left(y-L_E\sin\omega t\right)- \frac{GM_S}{d_S^3}\left(y+L_S\sin\omega t\right) \end{eqnarray*}
+\form#26:$M_E$
+\form#27:$M_S$
+\form#28:$L_E$
+\form#29:$L_S$
+\form#30:$d_E$
+\form#31:$d_S$
+\form#32:$(x, y, x^\prime, y^\prime)$
+\form#33:$(x, y, V_x, V_y)$
+\form#34:$(x^\prime, y^\prime, x^{\prime\prime}, y^{\prime\prime})$
+\form#35:$(x^\prime, y^\prime, V_x^\prime, V_y^\prime)$
+\form#36:$p = v^2 - v_E^2$
+\form#37:$v_R = v/v_E$
+\form#38:$v$
+\form#39:$v_E$
+\form#40:\begin{eqnarray*} \frac{1}{2}mv_0^2 & = & \frac{GMm}{R_L}\\ v_0^2 & = & \frac{2GM}{R_L}\\ v_0 & = & \sqrt{\frac{2M}{R_L}} = v_E \end{eqnarray*}
+\form#41:$R_L$
+\form#42:$M$
+\form#43:$G = 1$
+\form#44:$\Delta\epsilon / \epsilon_0$
+\form#45:$(x, x^\prime)$
+\form#46:$(x, V_x)$
+\form#47:$(x^\prime, x^{\prime\prime})$
+\form#48:$(x^\prime, V_x^\prime)$
+\form#49:$m_1$
+\form#50:$m_2$
+\form#51:$v_1$
+\form#52:$v_2$
+\form#53:\begin{eqnarray*} m_1 v_1 &=& m_2 v_2 \end{eqnarray*}
+\form#54:$\Delta v = v_1 - v_2$
+\form#55:$(x_1, x_2, y_1, y_2, x_1^\prime, x_2^\prime, y_1^\prime, y_2^\prime)$
+\form#56:$(x_1^\prime, x_2^\prime, y_1^\prime, y_2^\prime, x_1^{\prime\prime}, x_2^{\prime\prime}, y_1^{\prime\prime}, y_2^{\prime\prime})$
+\form#57:$\overrightarrow{r_0} = \langle x_0, y_0 \rangle$
+\form#58:$\overrightarrow{r} = \langle x, y \rangle$
+\form#59:\begin{eqnarray*} \left|\Theta\right| &=& \arccos \left( \hat{r_0} \cdot \hat{r} \right)\\ &=& \arccos \left( \frac{xx_0 + yy_0} {\sqrt{\left(x^2+y^2\right)\left(x_0^2+y_0^2\right)}} \right) \end{eqnarray*}
+\form#60:$\overrightarrow{r_0}$
+\form#61:$\overrightarrow{r}$
+\form#62:$x_0y - xy_0$
+\form#63:$\Theta$
+\form#64:$\Theta \equiv 0$
