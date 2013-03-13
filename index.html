@@ -1,11 +1,22 @@
 <html>
 <head>
-<title>Escape Trajectory Generator</title>
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.4/leaflet.css" /> 
 </head>
 <body>
-<p>Content is coming.</p>
+  <div id="map" style="width: 100%; height: 100%"></div>
 
-<p>For now, please refer to the <a href="docs">docs</a></p>
-
+  <script src="http://cdn.leafletjs.com/leaflet-0.4/leaflet.js"></script>
+  <script>
+    var map = L.map('map', {
+      maxbounds: new L.LatLngBounds(new L.LatLng(51.39920565355378, -52.294921875), new L.LatLng(63.15435519659187, -21.533203125)),
+      continuousWorld: true
+    }).setView([9.817329187067783, -120.65185546875], 5);
+    L.tileLayer('{z}/{x}/{y}.png', {
+      minZoom: 1,
+      maxZoom: 6,
+      attribution: 'Evan Heidtmann, College of Wooster Physics Dept',
+      tms: true
+    }).addTo(map);
+  </script>
 </body>
 </html>
